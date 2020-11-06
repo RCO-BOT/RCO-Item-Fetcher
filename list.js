@@ -4,7 +4,7 @@ const wro = require("weighted-random-object"),
     };
 
 const list = [
- // Add the list here. 
+ // Add the item IDs here. 
 ]
 
 const getItems = () => {
