@@ -58,6 +58,7 @@ const items = require("./list.js").list,
                 46: 'back accessory',
                 47: 'waist accessory'
             }
+            
             let type = types[res.AssetTypeId] ? types[res.AssetTypeId] : "n/a";
             if(!find){
                 json.push({
